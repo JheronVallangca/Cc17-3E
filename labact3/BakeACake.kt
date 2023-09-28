@@ -3,10 +3,10 @@ fun main()
     val Age = 20
     val layer = 5
     
-    printCakeCandles(Age)
-    printCakeCandlesBody(Age)
+    printCakeCandles(Age)   
     printCakeTop(Age)
     printCakeBottom(layer,Age)
+
 }
 fun printCakeCandles(Age:Int)
 {
@@ -14,18 +14,16 @@ fun printCakeCandles(Age:Int)
     {
         print(",")
     }
-    println()
-}
-​
-fun printCakeCandlesBody(Age:Int)
-{
+    	println()
+    
     repeat(Age)
     {
         print("|")
     }
-    println()
+    	println()
 }
-​
+   
+
 fun printCakeTop(Age:Int)
 {
     repeat(Age)
@@ -34,7 +32,7 @@ fun printCakeTop(Age:Int)
     }
     println()
 }
-​
+
 fun printCakeBottom(layer:Int ,Age:Int)
 {
     repeat(layer)
@@ -46,4 +44,3 @@ fun printCakeBottom(layer:Int ,Age:Int)
         println()
 }
 }
-​
